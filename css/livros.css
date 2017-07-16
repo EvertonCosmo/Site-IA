@@ -1,0 +1,18 @@
+/*===LIVROS====*/
+
+.imagem{ width: 398px;height: 440px;padding: 11px;float: right;}	
+p{color: #000;}
+h2{padding: 8px;color: #fff;}
+h4{padding: 0px 8px 8px 270px;}
+.titulo{font-size: 2.2em;}
+/*======ARTICLES LIVROS======*/
+
+.servico-livros {width: 100%;  text-align: left;  margin-bottom: 3%;background-color: rgba(0,0,0,0.8);color: #FFF;}
+.servico-livros img {border-radius:20px; padding-left: 20px;}
+.inner-livros {padding: 7%;}
+.inner-livros a {font-size: 1.5em; color: #FFF; font-weight: 700; }
+.inner-livros h4 {font-size: 1.2em; color: #FFF; margin-top: 2%; }
+.inner-livros p {margin-top: 6%; color: #FFF; line-height: 1.5em;text-align: justify;text-indent: 15px; font-family: 'Lato',sans-serif;}
+
+/*=====IFRAME=====*/
+iframe{float:right;margin-left:20px; border-radius:15px; border:1px solid #FFF;}

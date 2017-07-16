@@ -1,0 +1,29 @@
+th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 15px;
+}
+table
+{
+	padding: 10px;
+}
+.NOME
+{
+	color: #FFFAFA;
+	background-color: black;
+	border-color: #ffffff;
+}
+.Idade
+{
+	background-color: #007FFF;
+}
+.texto{text-indent: 15px;text-align: justify; font-family: "Lucinda Unicode",sans-serif;}
+.fim{float: right;width: 410px; font-weight: bold; position: relative; left: -210px;}
+blockquote{font-style: italic;}
+
+
+/*====AUTHORS====*/
+/*PAGE QUEMSOMOS? */
+
+.authors{width: 200px;height: 200px; border-radius: 20px; border-bottom: 1px solid #000;}

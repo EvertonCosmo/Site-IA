@@ -1,0 +1,43 @@
+ /*FORMULARIO CSS*/
+
+/*===HELPERS===*/
+.black{color: #000;}
+.bg-botoes{background-color: #007fff; color:#ffffff;}
+.borders{border: 1px solid #007fff;border-radius: 10px;   cursor: pointer;}
+.inputs-color{border:1px solid #007fff; width: 250px;}
+
+fieldset{width:100%;height:100%;}
+legend{font-style:bold;font-family: 'Lato',sans-serif;}
+textarea{border-radius: 5px;border:solid 1px #007fff;}
+#fieldset2{width:300px;height:290px;}
+#legend2{font-style:bold;color: #000;}
+ 
+
+        
+       
+     
+        
+}
+.MeuInput { 
+	width: 100px; height: 50px;
+
+	}
+	
+	.identacao{
+	padding-left: 15em;
+	}
+	.identacao2{
+	padding-left: 2em;
+	}
+	.formulario
+	{
+		float: right;
+		position: relative;
+		left: -300px;
+		top: -400px;
+	}
+
+#cor{
+	color: #FFFFFF;
+	font-family: 'Lato', sans-serif;
+}

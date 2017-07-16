@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Contato</title>
+		<meta charset="utf-8">
+		<meta name="keywords" content="IA, Inteligência artificial,">
+		<meta name="robots" content="index,folow">
+		<meta name="author" content="Cosmo,Alimpio,Emanoel">
+	<!--LINK -CSS -->
+		<link rel="stylesheet" type="text/css" href="css/formulario.css">
+		<!-- <link rel="stylesheet" type="text/css" href="css/estilo.css"> -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="font/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+		<link rel="icon" href="img/icon.gif">
+	<!--CHAMAR ARQUIVO NO CSS
+	font-family: 'Lato', sans-serif;
+		-->
+	</head>	
+ 
+	<body>
+		<header class="cabecalho container">
+			<a href="index.html"><h1 class="logo">Inteligência artificial</h1></a>
+			<button class="btn-menu bg-gradient">
+				<i class="fa fa-bars fa-lg" aria-hidden="true"></i>
+			</button>
+			<nav class="menu">
+				<!--Fechar o menu-->
+				<a class="btn-close"><i class="fa fa-times"></i></a>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="dicas.html">Dicas</a></li>
+					<li><a href="quemsomos.html">Quem somos?</a></li>
+					<li><a href="contato.html">Contato</a></li>
+					<li><a href="login.html">Rede social - IA network</a></li>
+				</ul>
+			</nav>
+
+		</header>
+			<!--Banner inicial-->
+		<div class="banner container">
+			<div class="title">
+				<h2 id="titulo-artigos">Contato</h2>
+				
+			</div>
+			</div>
+		<!-- FORḾULÁRIO -->
+			<section>
+				<form>
+					<fieldset class="contato">
+						<legend>Dê sua opinião:</legend>
+						<span>Nome: </span>
+						<input type="text" class="text-area-inputs inputs-bg" name="nome"  required="">
+						<br>
+						<br>
+						<span>E-mail: <span>
+						<input type="email" class="text-area-inputs inputs-bg" name="email" required="">
+						<br>
+						<br>
+						<!-- Checkbox-->
+						
+						<br>
+						<br>
+						<span>Gostou do site?</span>
+						<select >
+							<option value="sim">Sim</option>
+							<option value="Nao">Não</option>
+							<option value="talvez">Talvez</option>
+
+						</select>
+						<br>
+						<br>
+						<!-- TEXTAREA -->
+						<label>Mensagem: </label>
+						<textarea name="mensagem" class="text-area-inputs" placeholder="Escreva sua mensagem" rows="10"></textarea>
+
+						<!-- BOTÕES -->
+						<input type="submit" class="bt-radius" name="enviar" value="ENVIAR">
+						<input type="reset" class="bt-radius" name="resetar" value="REDEFINIR">
+					</fieldset>
+
+
+				</form>
+
+			</section>
+
+
+
+
+	<!--FOOTER-->
+			<footer class="rodape container bg-rodape">
+				<div class="social-icons">
+					<a href="https://www.facebook.com/emanoel.alves.1614" target="_blank"><i class="fa fa-facebook"></i></a>
+					<a href="mailton:everton8cosmo@gmail.com" target="_blank"><i class="fa fa-google"></i></a>
+				</div>
+				<p class="copyright">
+					Copyright &copy; MAC 2017. Todos os direitos reservados
+				</p>
+			</footer>		
+			</div>
+			<!--JQUERY-->
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script>	
+			//Mostrar o --MENU--
+		$(".btn-menu").click(function(){
+			$(".menu").show();
+		});
+			//Esconder o --MENU--
+		$(".btn-close").click(function(){
+			$(".menu").hide();
+		});
+	</script>
+
+	</body>
+
+</html>

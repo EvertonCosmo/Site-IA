@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>DICAS</title>
+		<meta charset="utf-8">
+		<meta name="keywords" content="IA, Inteligência artificial,">
+		<meta name="robots" content="index,folow">
+		<meta name="author" content="Cosmo,Alimpio,Emanoel">
+	<!--LINK -CSS -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="font/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+		<link rel="icon" href="img/icon.gif">
+	<!--CHAMAR ARQUIVO NO CSS
+	font-family: 'Lato', sans-serif;
+		-->
+	</head>	
+ 
+	<body>
+		<header class="cabecalho container">
+			<a href="index.html"><h1 class="logo">Inteligência artificial</h1></a>
+			<button class="btn-menu bg-gradient">
+				<i class="fa fa-bars fa-lg" aria-hidden="true"></i>
+			</button>
+			<nav class="menu">
+				<!--Fechar o menu-->
+				<a class="btn-close"><i class="fa fa-times"></i></a>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="dicas.html">Dicas</a></li>
+					<li><a href="quemsomos.html">Quem somos?</a></li>
+					<li><a href="contato.html">Contato</a></li>
+					<li><a href="login.html">Rede social - IA network</a></li>
+				</ul>
+			</nav>
+
+		</header>
+			<!--Banner inicial-->
+		<div class="banner container">
+			<div class="title">
+				<h2 id="titulo-artigos">Seção de Dicas</h2>
+				
+			</div>
+
+				<!--Livros-->
+			<main class="servicos container"> 
+				<article class="servico bg-white radius">
+					<a href="livros.html"> <img src="img/livros.png" alt="Livros"></a>
+					<div class="inner">
+						<a href="livros.html">Livros</a>
+						
+					</div>
+					
+				</article>		
+					
+						<!--Filmes-->		
+					<article class="servico bg-white radius">
+					<a href="filmes.html"> <img src="img/filmes.jpg" alt="Filmes"></a>
+					<div class="inner">
+						<a href="filmes.html">Filmes</a>
+					
+					</div>
+				</article>	
+
+						<!--Machine Learning-->
+				<article class="servico bg-white radius">
+					<a href="redesneurais.html"> <img src="img/redesneurais.png" alt="Machine Learning"></a>
+					<div class="inner">
+						<a href="redesneurais.html">Sites sobre IA </a>
+						
+					</div>
+				</article>	
+			</main> 
+			
+				<!--FOOTER-->
+			<footer class="rodape container bg-rodape">
+				<div class="social-icons">
+<a href="https://www.facebook.com/emanoel.alves.1614" target="_blank"><i class="fa fa-facebook"></i></a>
+					<a href="mailton:everton8cosmo@gmail.com" target="_blank"><i class="fa fa-google"></i></a>
+				</div>
+				<p class="copyright">
+					Copyright &copy; MAC 2017. Todos os direitos reservados
+				</p>
+			</footer>		
+			</div>
+			<!--JQUERY-->
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script>	
+			//Mostrar o --MENU--
+		$(".btn-menu").click(function(){
+			$(".menu").show();
+		});
+			//Esconder o --MENU--
+		$(".btn-close").click(function(){
+			$(".menu").hide();
+		});
+	</script>
+
+	</body>
+
+</html>
